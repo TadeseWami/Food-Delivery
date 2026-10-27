@@ -1,0 +1,44 @@
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 40px;
+    background:white;
+}
+.profile-container{
+    position:relative;
+     cursor: pointer;
+}
+
+
+.profile-dropdown{
+    padding:0;
+    list-style:none;
+    position:absolute;
+    right: 48px;
+    top:39px;
+    background:white;
+    list-style:none;
+    width:100px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+
+.profile-dropdown li{
+        width:100%;
+    padding:12px 20px;
+    cursor:pointer;
+    display:block;
+    padding:10px 20px;
+    cursor:pointer;
+    font-family:"Poppins",sans-serif;
+    font-weight:500;
+}
+
+
+.profile-dropdown li:hover{
+    background:#ff6b35;
+    color:white;
+    border-radius: 10px;
+}
